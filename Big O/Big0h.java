@@ -14,8 +14,30 @@ public class Big0h {
       endTime = System.currentTimeMillis();
       long builderElapsed = endTime - startTime;
       
-        System.out.println("String concat elapsed: " + concatElapsed);
-        System.out.println("String concat elapsed: " + builderElapsed);
+      System.out.println("String concat elapsed: " + concatElapsed);
+      System.out.println("String concat elapsed: " + builderElapsed);
+        
+      // O(n) -> Linear function
+      
+      // O(1) -> Constant function
+      
+      // O(n^2) -> exponential function
+      /*
+        for(int i = 0; i < 5; i++){
+            for(int j = 0; j < 5; j++){
+                5 -> 25 times.
+            }
+        }
+      */
+      
+      // O(log(n))
+      /*
+        Prevalent in Binary Trees
+        
+        32 -> 5
+        16 -> 4
+        8 -> 3
+      */
     }
     
     // stringConcat is an exponential function
